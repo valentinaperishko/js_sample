@@ -511,4 +511,4 @@ const workPositions = [
 const idChoose = () => {
   const arr = [];
   for 
-};
+}
