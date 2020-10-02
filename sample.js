@@ -425,90 +425,189 @@
 // свойства из объекта с рабочим отделом, должностью и зарплатой на этой должности типа:
 // {department: "Отдел продаж", position: "Торговый представитель", salary: 10000}
 
-const workInfo = [
-  {
-    id: 1,
-    name: 'Oleksandr',
-    lastName: 'Oleksandrov',
-  },
-  {
-    id: 1,
-    name: 'Petro',
-    lastName: 'Petrov',
-  },
-  {
-    id: 1,
-    name: 'Ivan',
-    lastName: 'Ivanov',
-  },
-  {
-    id: 1,
-    name: 'Artem',
-    lastName: 'Artemov',
-  },
-  {
-    id: 1,
-    name: 'Oles',
-    lastName: 'Olesov',
-  },
-  {
-    id: 1,
-    name: 'Taras',
-    lastName: 'Tarasov',
-  },
-  {
-    id: 1,
-    name: 'Salem',
-    lastName: 'Salemov',
-  },
-];
+// const workInfo = [
+//   {
+//     id: 1,
+//     name: 'Oleksandr',
+//     lastName: 'Oleksandrov',
+//   },
+//   {
+//     id: 1,
+//     name: 'Petro',
+//     lastName: 'Petrov',
+//   },
+//   {
+//     id: 1,
+//     name: 'Ivan',
+//     lastName: 'Ivanov',
+//   },
+//   {
+//     id: 1,
+//     name: 'Artem',
+//     lastName: 'Artemov',
+//   },
+//   {
+//     id: 1,
+//     name: 'Oles',
+//     lastName: 'Olesov',
+//   },
+//   {
+//     id: 1,
+//     name: 'Taras',
+//     lastName: 'Tarasov',
+//   },
+//   {
+//     id: 1,
+//     name: 'Salem',
+//     lastName: 'Salemov',
+//   },
+// ];
 
-const workPositions = [
-  {
-    id: 1,
-    department: 'Отдел продаж',
-    position: 'Торговый представитель',
-    salary: 10000,
-  },
-  {
-    id: 2,
-    department: 'Отдел аналитики',
-    position: 'Аналитик систем',
-    salary: 50000,
-  },
-  {
-    id: 3,
-    department: 'Отдел рекламы',
-    position: 'Маркетолог',
-    salary: 25000,
-  },
-  {
-    id: 4,
-    department: 'Отдел продаж',
-    position: 'Супервайзер',
-    salary: 18000,
-  },
-  {
-    id: 5,
-    department: 'Отдел рекламы',
-    position: 'Мерчендайзер',
-    salary: 10000,
-  },
-  {
-    id: 6,
-    department: 'Отдел логистики',
-    position: 'Водитель-экспедитор',
-    salary: 15000,
-  },
-  {
-    id: 7,
-    department: 'Бухгалтерия',
-    position: 'Главный бухгалтер',
-    salary: 20000,
-  },
-];
+// const workPositions = [
+//   {
+//     id: 1,
+//     department: 'Отдел продаж',
+//     position: 'Торговый представитель',
+//     salary: 10000,
+//   },
+//   {
+//     id: 2,
+//     department: 'Отдел аналитики',
+//     position: 'Аналитик систем',
+//     salary: 50000,
+//   },
+//   {
+//     id: 3,
+//     department: 'Отдел рекламы',
+//     position: 'Маркетолог',
+//     salary: 25000,
+//   },
+//   {
+//     id: 4,
+//     department: 'Отдел продаж',
+//     position: 'Супервайзер',
+//     salary: 18000,
+//   },
+//   {
+//     id: 5,
+//     department: 'Отдел рекламы',
+//     position: 'Мерчендайзер',
+//     salary: 10000,
+//   },
+//   {
+//     id: 6,
+//     department: 'Отдел логистики',
+//     position: 'Водитель-экспедитор',
+//     salary: 15000,
+//   },
+//   {
+//     id: 7,
+//     department: 'Бухгалтерия',
+//     position: 'Главный бухгалтер',
+//     salary: 20000,
+//   },
+// ];
 
-const idChoose = () => {
-  const arr = [];
-  for 
+// const idChoose = () => {
+//   const arr = [];
+//   for 
+// }
+
+// const findBestEmployee = function (employees) {
+  
+//   // Write code under this line
+//   let value = 0;
+//   let name = "";
+//   for(const key in employees) {
+//     if(employees[key] > value) {
+//       value = employees[key];
+//       name = key;
+      
+//     }
+
+    
+//   }
+//   return `${name}`;
+//   console.log(value, name);
+// };
+
+
+// // Объекты и ожидаемый результат
+// const developers = {
+//   ann: 29,
+//   david: 35,
+//   helen: 1,
+//   lorence: 99,
+// }; 
+// console.log(findBestEmployee(developers)); 
+// // 'lorence'
+
+// const supports = {
+//   poly: 12,
+//   mango: 17,
+//   ajax: 4,
+// }; 
+// console.log(findBestEmployee(supports)); 
+// // 'mango'
+
+// const sellers = {
+//   lux: 147,
+//   david: 21,
+//   kiwi: 19,
+//   chelsy: 38,
+// }
+// console.log(findBestEmployee(sellers)); 
+// // 'lux'  
+
+
+//  function calculateTotalPrice (array, prop) {
+  
+//   // Write code under this line
+//   let total = 0;
+//   const arr = [];
+//   for(const item of arr) {
+// //     if(item === name){
+// //       total = price * quantity;
+// //     }
+// //      }
+
+// // return total;
+//     }
+
+// // Объекты и ожидаемый результат
+// const products = [
+//     { name: 'Радар', price: 1300, quantity: 4 },
+//     { name: 'Радар', price: 1280, quantity: 2 },
+//     { name: 'Радар', price: 1320, quantity: 1 },
+//     { name: 'Сканер', price: 2700, quantity: 1 },
+//     { name: 'Сканер', price: 2500, quantity: 3 },
+//     { name: 'Дроид', price: 400, quantity: 7 },
+//     { name: 'Захват', price: 1200, quantity: 2 }
+// ]; 
+
+// console.log(calculateTotalPrice(products, 'Радар'));  
+// // 9080
+
+// console.log(calculateTotalPrice(products, 'Сканер')); 
+// // 10200
+
+// console.log(calculateTotalPrice(products, 'Захват'));
+// // 2400
+
+// console.log(calculateTotalPrice(products, 'Дроид')); 
+// // 2800
+
+
+let car = {
+  speed: 0,
+  speedOn() {
+    
+  },
+  speedOff
+  color: black,
+  isEngineOn: true,
+  engineToggle
+  isLightOn: true,
+  lightsToggle,
+
 }
